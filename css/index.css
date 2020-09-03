@@ -1,0 +1,156 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-size: 14px;
+}
+
+h1{
+    font-size: 25px;
+}
+
+#slide1{
+    width: 100%;
+    height: auto;
+}
+
+/* .bg{
+    position: relative;
+    z-index: -2;
+    top: -1500px;
+    left: -160px;
+} */
+
+.slider{
+    position: relative;
+    margin-top: -1500px;
+    margin-left: -200px;
+    width: 2100px;
+    height: auto;
+    
+}
+
+.nav{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.nav ul{
+    position: absolute;
+    margin: -620px 0 0 70px;
+    list-style: none;
+}
+
+.nav ul li{
+    float: none;
+    display: inline-block;
+}
+
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 50px;
+}
+
+.nav ul li a:hover{
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.logo{
+    position: absolute;
+    display: inline-block;
+    z-index: 1 ;
+    top: 75px;
+    left: 750px;
+}
+
+.logo img{
+    width: 170px;
+    height: auto;
+}
+
+.text{
+    width: 450px;
+    position: absolute;
+    display: inline-block;
+    z-index: 1;
+    top: 250px;
+    left: 43%;
+}
+
+.text h1, p{
+    text-align: right;
+    color: white;
+    
+}
+
+.ps{
+    position: absolute;
+    display: inline-block;
+    z-index: 1 ;
+    top: 450px;
+    left: 770px;
+}
+
+.ps img{
+    width: 150px;
+    height: auto;
+}
+
+.img1{
+    position: absolute;
+    display: inline-block;
+    z-index: 1 ;
+    top: 15%;
+    left: 15%;
+}
+
+.img1 img{
+    width: 350px;
+    height: auto;
+}
+
+#slide2{
+    width: 100%;
+    height: auto;
+}
+
+#slide2 > .header{
+    margin-top: 50px;
+    width: 100%;
+}
+
+#slide2 > .header h1{
+    text-align: center;
+    color: #5D5D5D;
+}
+
+.header > p{
+    color: #737373;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.infog{
+    position: absolute;
+    display: inline-block;
+    z-index: 1 ;
+    top: 850px;
+    left: 135px;
+}
+
+.infog img{
+    width: 1000px;
+    height: auto;
+}
+
+#slide3{
+    margin-top: 450px;
+    background-image: url(../assets/Shape.svg);
+    width: 100%;
+    height: auto;
+}
