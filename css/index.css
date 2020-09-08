@@ -15,13 +15,6 @@ h1{
     height: auto;
 }
 
-/* .bg{
-    position: relative;
-    z-index: -2;
-    top: -1500px;
-    left: -160px;
-} */
-
 .slider{
     position: relative;
     margin-top: -1500px;
@@ -149,8 +142,42 @@ h1{
 }
 
 #slide3{
-    margin-top: 450px;
-    background-image: url(../assets/Shape.svg);
+    margin-top: 450px;width: 100%;
+    height: auto;
+}
+
+.header1{
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color : white;
+    padding-top: 20px;
+    margin-top: -850px;
+}
+
+.header1 p{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.ui{
+    position: absolute;
+    display: inline-block;
+    z-index: 1 ;
+    left: 230px;
+    margin-top: -670px;
+}
+
+.ui > img{
+    width: 240px;
+    height: auto;
+}
+
+.bg{
+    position: relative;
     width: 100%;
     height: auto;
+    z-index:  -2;
 }
